@@ -17,6 +17,11 @@ public class BinaryTest {
         System.out.println("0111 ^ 1001 = 1110");
 
         System.out.println("i=" + i + ",j=" + j);
+
+        int k = -2;
+        System.out.println(k << 1);
+        System.out.println(k >> 31);
+        System.out.println((k << 1) ^ (k >> 31));
     }
 
 }
